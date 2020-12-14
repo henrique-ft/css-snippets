@@ -1,0 +1,240 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
+
+.cont {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.r {
+  position: relative;
+  width: 100%;
+}
+
+.r .c1,
+.r .c2,
+.r .c3,
+.r .c4,
+.r .c5,
+.r .c6,
+.r .c7,
+.r .c8,
+.r .c9,
+.r .c10,
+.r .c11,
+.r .c12,
+.r .c1-md,
+.r .c2-md,
+.r .c3-md,
+.r .c4-md,
+.r .c5-md,
+.r .c6-md,
+.r .c7-md,
+.r .c8-md,
+.r .c9-md,
+.r .c10-md,
+.r .c11-md,
+.r .c12-md,
+.r .c1-sm,
+.r .c2-sm,
+.r .c3-sm,
+.r .c4-sm,
+.r .c5-sm,
+.r .c6-sm,
+.r .c7-sm,
+.r .c8-sm,
+.r .c9-sm,
+.r .c10-sm,
+.r .c11-sm,
+.r .c12-sm
+{
+  float: left;
+  margin: 0.5rem 2%;
+  min-height: 0.125rem;
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9,
+.c10,
+.c11,
+.c12 {
+  width: 96%;
+}
+
+.c1-sm {
+  width: 4.33%;
+}
+
+.c2-sm {
+  width: 12.66%;
+}
+
+.c3-sm {
+  width: 21%;
+}
+
+.c4-sm {
+  width: 29.33%;
+}
+
+.c5-sm {
+  width: 37.66%;
+}
+
+.c6-sm {
+  width: 46%;
+}
+
+.c7-sm {
+  width: 54.33%;
+}
+
+.c8-sm {
+  width: 62.66%;
+}
+
+.c9-sm {
+  width: 71%;
+}
+
+.c10-sm {
+  width: 79.33%;
+}
+
+.c11-sm {
+  width: 87.66%;
+}
+
+.c12-sm {
+  width: 96%;
+}
+
+.r::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media only screen and (min-width: 53.75em) { /* MD */
+  .c1-md {
+    width: 4.33%;
+  }
+
+  .c2-md {
+    width: 12.66%;
+  }
+
+  .c3-md {
+    width: 21%;
+  }
+
+  .c4-md {
+    width: 29.33%;
+  }
+
+  .c5-md {
+    width: 37.66%;
+  }
+
+  .c6-md {
+    width: 46%;
+  }
+
+  .c7-md {
+    width: 54.33%;
+  }
+
+  .c8-md {
+    width: 62.66%;
+  }
+
+  .c9-md {
+    width: 71%;
+  }
+
+  .c10-md {
+    width: 79.33%;
+  }
+
+  .c11-md {
+    width: 87.66%;
+  }
+
+  .c12-md {
+    width: 96%;
+  }
+}
+
+@media only screen and (min-width: 65em) {
+  .c1 {
+    width: 4.33%;
+  }
+
+  .c2 {
+    width: 12.66%;
+  }
+
+  .c3 {
+    width: 21%;
+  }
+
+  .c4 {
+    width: 29.33%;
+  }
+
+  .c5 {
+    width: 37.66%;
+  }
+
+  .c6 {
+    width: 46%;
+  }
+
+  .c7 {
+    width: 54.33%;
+  }
+
+  .c8 {
+    width: 62.66%;
+  }
+
+  .c9 {
+    width: 71%;
+  }
+
+  .c10 {
+    width: 79.33%;
+  }
+
+  .c11 {
+    width: 87.66%;
+  }
+
+  .c12 {
+    width: 96%;
+  }
+}
+
+@media only screen and (min-width: 80em) {
+  .cont {
+    width: 90%;
+    max-width: 75rem;
+  }
+}
+
