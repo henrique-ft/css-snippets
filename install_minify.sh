@@ -1,1 +1,1 @@
-yarn global add css-minify
+npm install css-minify -g
