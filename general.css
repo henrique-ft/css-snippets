@@ -1,0 +1,29 @@
+body,
+textarea,
+input,
+select {
+  background: 0;
+  border-radius: 0;
+  font: 16px sans-serif;
+  margin: 0;
+}
+.addon,
+.nav,
+textarea,
+input,
+select {
+  outline: 0;
+  font-size: 14px;
+}
+.smooth {
+  transition: all .2s;
+}
+.btn,
+.nav a {
+  text-decoration: none;
+}
+.btn,
+h2 {
+  font-size: 2em;
+}
+

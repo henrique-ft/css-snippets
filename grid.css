@@ -32,30 +32,30 @@ body {
 .r .c10,
 .r .c11,
 .r .c12,
-.r .c1-md,
-.r .c2-md,
-.r .c3-md,
-.r .c4-md,
-.r .c5-md,
-.r .c6-md,
-.r .c7-md,
-.r .c8-md,
-.r .c9-md,
-.r .c10-md,
-.r .c11-md,
-.r .c12-md,
-.r .c1-sm,
-.r .c2-sm,
-.r .c3-sm,
-.r .c4-sm,
-.r .c5-sm,
-.r .c6-sm,
-.r .c7-sm,
-.r .c8-sm,
-.r .c9-sm,
-.r .c10-sm,
-.r .c11-sm,
-.r .c12-sm
+.r .c1-m,
+.r .c2-m,
+.r .c3-m,
+.r .c4-m,
+.r .c5-m,
+.r .c6-m,
+.r .c7-m,
+.r .c8-m,
+.r .c9-m,
+.r .c10-m,
+.r .c11-m,
+.r .c12-m,
+.r .c1-s,
+.r .c2-s,
+.r .c3-s,
+.r .c4-s,
+.r .c5-s,
+.r .c6-s,
+.r .c7-s,
+.r .c8-s,
+.r .c9-s,
+.r .c10-s,
+.r .c11-s,
+.r .c12-s
 {
   float: left;
   margin: 0.5rem 2%;
@@ -77,51 +77,51 @@ body {
   width: 96%;
 }
 
-.c1-sm {
+.c1-s {
   width: 4.33%;
 }
 
-.c2-sm {
+.c2-s {
   width: 12.66%;
 }
 
-.c3-sm {
+.c3-s {
   width: 21%;
 }
 
-.c4-sm {
+.c4-s {
   width: 29.33%;
 }
 
-.c5-sm {
+.c5-s {
   width: 37.66%;
 }
 
-.c6-sm {
+.c6-s {
   width: 46%;
 }
 
-.c7-sm {
+.c7-s {
   width: 54.33%;
 }
 
-.c8-sm {
+.c8-s {
   width: 62.66%;
 }
 
-.c9-sm {
+.c9-s {
   width: 71%;
 }
 
-.c10-sm {
+.c10-s {
   width: 79.33%;
 }
 
-.c11-sm {
+.c11-s {
   width: 87.66%;
 }
 
-.c12-sm {
+.c12-s {
   width: 96%;
 }
 
@@ -132,51 +132,51 @@ body {
 }
 
 @media only screen and (min-width: 53.75em) { /* MD */
-  .c1-md {
+  .c1-m {
     width: 4.33%;
   }
 
-  .c2-md {
+  .c2-m {
     width: 12.66%;
   }
 
-  .c3-md {
+  .c3-m {
     width: 21%;
   }
 
-  .c4-md {
+  .c4-m {
     width: 29.33%;
   }
 
-  .c5-md {
+  .c5-m {
     width: 37.66%;
   }
 
-  .c6-md {
+  .c6-m {
     width: 46%;
   }
 
-  .c7-md {
+  .c7-m {
     width: 54.33%;
   }
 
-  .c8-md {
+  .c8-m {
     width: 62.66%;
   }
 
-  .c9-md {
+  .c9-m {
     width: 71%;
   }
 
-  .c10-md {
+  .c10-m {
     width: 79.33%;
   }
 
-  .c11-md {
+  .c11-m {
     width: 87.66%;
   }
 
-  .c12-md {
+  .c12-m {
     width: 96%;
   }
 }
@@ -240,12 +240,12 @@ body {
 
 /* responsiveness */
 
-.hide-sm {
+.hide-s {
   display: none;
 }
 
 @media only screen and (min-width: 65em) {  /* 720px */
-  .hide-sm {
+  .hide-s {
     display: block;
   }
 }

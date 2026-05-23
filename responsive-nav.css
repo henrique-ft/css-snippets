@@ -1,0 +1,159 @@
+/*
+
+<nav class="nav" tabindex="-1" onclick="this.focus()">
+  <div class="con">
+    <a class="pagename current" href="#">Roda Project</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#">One</a></li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
+  </div>
+</nav>
+
+ */
+.nav {
+  background: #000;
+  color: #fff;
+  padding: 11px 0 15px;
+  position: relative;
+}
+
+.nav .con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav .pagename {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.nav .menu-btn {
+  display: none; /* Hide the checkbox */
+}
+
+.nav .menu-icon {
+  cursor: pointer;
+  display: block; /* Show hamburger icon on small screens */
+  padding: 10px;
+  position: relative;
+  user-select: none;
+  z-index: 2; /* Ensure icon is above menu */
+}
+
+.nav .menu-icon .navicon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.nav .menu-icon .navicon:before,
+.nav .menu-icon .navicon:after {
+  background: #fff;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.nav .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.nav .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* Menu button transform */
+.nav .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.nav .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.nav .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .2s ease-out;
+  background: #333; /* Same as nav background */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.nav .menu li {
+  text-align: center;
+}
+
+.nav .menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background .2s;
+}
+
+.nav .menu li a:hover {
+  background: #555;
+}
+
+/* Show menu when checkbox is checked */
+.nav .menu-btn:checked ~ .menu {
+  max-height: 240px; /* Adjust based on number of menu items */
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .nav .menu-icon {
+    display: none; /* Hide hamburger icon on larger screens */
+  }
+
+  .nav .menu {
+    display: flex;
+    max-height: none; /* Override max-height for desktop */
+    position: static;
+    width: auto;
+    background: transparent;
+  }
+
+  .nav .menu li {
+    margin-left: 20px;
+  }
+
+  .nav .menu li a {
+    padding: 0;
+    background: transparent;
+  }
+
+  .nav .menu li a:hover {
+    background: transparent;
+    color: #0ae; /* Example hover color */
+  }
+}
+
