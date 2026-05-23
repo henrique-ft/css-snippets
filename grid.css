@@ -60,6 +60,7 @@ body {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+  box-sizing: border-box;
 }
 
 .c1,
