@@ -1,16 +1,14 @@
 /*
 
 <nav class="nav" tabindex="-1" onclick="this.focus()">
-  <div class="con">
-    <a class="pagename current" href="#">Roda Project</a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
-    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-    <ul class="menu">
-      <li><a href="#">One</a></li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-    </ul>
-  </div>
+  <a class="pagename current" href="#">Roda Project</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="#">One</a></li>
+    <li><a href="#">Two</a></li>
+    <li><a href="#">Three</a></li>
+  </ul>
 </nav>
 
  */
@@ -19,9 +17,7 @@
   color: #fff;
   padding: 11px 0 15px;
   position: relative;
-}
-
-.nav .con {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -156,4 +152,3 @@
     color: #0ae; /* Example hover color */
   }
 }
-
