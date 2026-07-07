@@ -75,55 +75,55 @@ body {
 .c10,
 .c11,
 .c12 {
-  width: 96%;
+  width: 98%;
 }
 
 .c1-s {
-  width: 4.33%;
+  width: 6.33%;
 }
 
 .c2-s {
-  width: 12.66%;
+  width: 14.66%;
 }
 
 .c3-s {
-  width: 21%;
+  width: 23%;
 }
 
 .c4-s {
-  width: 29.33%;
+  width: 31.33%;
 }
 
 .c5-s {
-  width: 37.66%;
+  width: 39.66%;
 }
 
 .c6-s {
-  width: 46%;
+  width: 48%;
 }
 
 .c7-s {
-  width: 54.33%;
+  width: 56.33%;
 }
 
 .c8-s {
-  width: 62.66%;
+  width: 64.66%;
 }
 
 .c9-s {
-  width: 71%;
+  width: 73%;
 }
 
 .c10-s {
-  width: 79.33%;
+  width: 81.33%;
 }
 
 .c11-s {
-  width: 87.66%;
+  width: 89.66%;
 }
 
 .c12-s {
-  width: 96%;
+  width: 98%;
 }
 
 .r::after {
@@ -134,113 +134,112 @@ body {
 
 @media only screen and (min-width: 53.75em) { /* MD */
   .c1-m {
-    width: 4.33%;
+    width: 6.33%;
   }
 
   .c2-m {
-    width: 12.66%;
+    width: 14.66%;
   }
 
   .c3-m {
-    width: 21%;
+    width: 23%;
   }
 
   .c4-m {
-    width: 29.33%;
+    width: 31.33%;
   }
 
   .c5-m {
-    width: 37.66%;
+    width: 39.66%;
   }
 
   .c6-m {
-    width: 46%;
+    width: 48%;
   }
 
   .c7-m {
-    width: 54.33%;
+    width: 56.33%;
   }
 
   .c8-m {
-    width: 62.66%;
+    width: 64.66%;
   }
 
   .c9-m {
-    width: 71%;
+    width: 73%;
   }
 
   .c10-m {
-    width: 79.33%;
+    width: 81.33%;
   }
 
   .c11-m {
-    width: 87.66%;
+    width: 89.66%;
   }
 
   .c12-m {
-    width: 96%;
+    width: 98%;
   }
 }
 
 @media only screen and (min-width: 65em) {
   .c1 {
-    width: 4.33%;
+    width: 6.33%;
   }
 
   .c2 {
-    width: 12.66%;
+    width: 14.66%;
   }
 
   .c3 {
-    width: 21%;
+    width: 23%;
   }
 
   .c4 {
-    width: 29.33%;
+    width: 31.33%;
   }
 
   .c5 {
-    width: 37.66%;
+    width: 39.66%;
   }
 
   .c6 {
-    width: 46%;
+    width: 48%;
   }
 
   .c7 {
-    width: 54.33%;
+    width: 56.33%;
   }
 
   .c8 {
-    width: 62.66%;
+    width: 64.66%;
   }
 
   .c9 {
-    width: 71%;
+    width: 73%;
   }
 
   .c10 {
-    width: 79.33%;
+    width: 81.33%;
   }
 
   .c11 {
-    width: 87.66%;
+    width: 89.66%;
   }
 
   .c12 {
-    width: 96%;
+    width: 98%;
   }
 }
 
 @media only screen and (min-width: 80em) {
   .con {
     width: 90%;
-    max-width: 75rem;
+    max-width: 90rem;
   }
 }
 
 /* responsiveness */
-
 .hide-s {
   display: none;
 }
